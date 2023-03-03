@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    height: 100%;
+    background-image: linear-gradient( to top,#AA6039 , #D4AB6A);
+    background-attachment: fixed;
+}
+
+main{
+    background-color: bisque;
+    
+}
+
+h1{
+    color: #133253;
+}
+
+h2{
+    color:#257059;
+}
+
+p{
+    color: #133253;
+}

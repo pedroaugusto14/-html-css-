@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @charset "utf-8";
+
+        /* CORES 
+
+            rosa = #ff7fbb
+            lilais = #897fff
+            diamante = #7fffd4
+            begi = #ffcf7f
+
+        */
+
+        .titulo{
+            color: #00fba7;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 3em;
+            text-align: center;
+        }
+
+        .sub-titulo{
+            color: #b19057;
+        }
+
+        body{
+            background-color: #ffcf7f;
+        }
+
+        header{
+            background-color: #8a7fffe2;
+            padding: 5px 30px   ;
+        }
+
+        header > h1{
+            color: #ff7fbb;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        header > nav {
+            margin: 0px 0px 5px 0px;
+            text-align: center;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 20px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: #00fba7;
+        }
+
+        nav > a:active{
+            text-decoration: none;
+        }
+
+        main{
+            background-color: white;
+            padding: 2px 10px;
+            margin: 50px 2px;
+            text-align: justify;
+            box-shadow: -5px -5px 4px #0000004a;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: #a36d10;
+            padding: 10px 10px;
+            text-align: center;
+            color: #d8d8d8;
+            border-radius: 0px 10px 0px 10px;
+        }
+
+        footer > a {
+            text-decoration: none;
+            color: #d8d8d8;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5px;
+        }
+
+        footer > a:hover{
+            text-decoration: underline;
+            color: #ffa200;
+        }
+
+        footer > a:active{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="esportes">
+            <h2 class="titulo">esportes</h2>
+
+            <h3 class="sub-titulo">futbol</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+
+            <h3 class="sub-titulo">basquete</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+
+            <h3 class="sub-titulo">volei</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+        <aside>
+            <p>escrito por Joao Grabriel</p>
+        </aside>
+        </section>
+
+        <section id="programacao">
+            <h2 class="titulo">programação</h2>
+
+            <h3 class="sub-titulo">html e css</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+
+            <h3 class="sub-titulo">pythom</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+
+            <h3 class="sub-titulo">java</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, praesentium odit, exercitationem tenetur nulla eligendi nemo mollitia vitae fugiat ipsum iusto inventore sed voluptatem quam hic ad animi soluta pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod ducimus quis iusto fugit. Debitis tenetur excepturi illum eveniet maxime. Totam non animi necessitatibus odio neque aliquam quas? Odit, in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos consectetur inventore nisi iure nesciunt recusandae itaque voluptatem, expedita dolore, consequatur nam et magni, libero quod minima aliquam assumenda ex!</p>
+
+            <aside>
+                <p>escrito por Carlos Daniel</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        desenvolvido por <a href="#"> Pedro Augusto</a>
+    </footer>
+</body>
+</html>

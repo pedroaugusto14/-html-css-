@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    background-color: #397856;
+}
+h1 {
+    font-family: verdana;
+    color: #22b466;
+}
+h2 {
+    font-style: italic;
+    color: #204833;
+}

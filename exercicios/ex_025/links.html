@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        @charset "UTF-8";
+        
+        /**{
+            height: 100%;
+        }*/
+
+        body{
+            height: 100%;
+            background-image: linear-gradient(to top , #d6b7fd ,  #715990);
+            background-attachment: fixed;
+        }
+
+        h1{
+            color: rgb(242, 148, 242);
+        }
+
+        a{
+            color: #62ff00;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(0, 162, 255);
+        }
+
+        a:active {
+            color: #fff700;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial::before{
+            content: '<< ';
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .especial::after{
+            content: ' >>';/* 
+            
+            content == conteudo 
+            
+            */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="especial">modificando links</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus praesentium omnis repellat odio exercitationem, iure atque vero architecto ratione accusantium voluptate explicabo quam minus rem illum. Dignissimos quibusdam voluptates illum.</p>
+    <a href="https://www.youtube.com/watch?v=WPtRX4n0UJs&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=21" target="_blank" rel="external">aula 21</a>
+    <br>
+    <br>
+    <a href="https://www.firefox.com" target="_blank" rel="external">firefox</a>
+</body>
+</html>
