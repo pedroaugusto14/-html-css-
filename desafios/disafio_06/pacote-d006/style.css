@@ -61,6 +61,18 @@ main > section {
 .imagem{
     background-color: #535353;
     color: white;
+    box-shadow: inset 6px  6px 13px 0px rgba(0, 0, 0, 0.501);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img_001{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img_002{
+    background-image: url(imagens/background002.jpg);
 }
 
 .imagem > p {
@@ -68,6 +80,7 @@ main > section {
     padding: 10px;
     border-radius: 15px;
     display: inline-block;
+    text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.524);
 }
 
 footer{
