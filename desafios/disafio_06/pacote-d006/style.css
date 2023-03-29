@@ -2,14 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family= Alkatra :wght@700 & display=swap');
 
-body{
-    padding: 0px;
+*{
     margin: 0px;
+    padding: 0px;
+}
+
+html , body {
+    background-color: darkgray;
 }
 
 header{
     background-color: black;
-    font-family: 'Alkatra' , cursive;
     color: white;
     height: 200px;
     text-align: center;
@@ -17,25 +20,65 @@ header{
 }
 
 header > h1{
-    margin: 0px;
     padding-top: 40px;
     font-size: 5em;
+    font-weight: bolder;
+    font-variant: small-caps;
 }
 
 p > a{
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 
 p > a:hover{
     text-decoration: underline;
-    font-size: 1.1em;
 }
 
 main {
-    width: 400px;
     font-family: 'Alkatra' , cursive;
     font-size: 1.5em;
-    text-indent: 40px;
+    text-indent: 30px;
     line-height: 2em;
+    padding: 0px;
+}
+
+main > section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+.normal{
+    background-color: white;
+}
+
+.imagem{
+    background-color: #535353;
+    color: white;
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.285);
+    padding: 10px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer > a:hover{
+    text-decoration: underline;
 }
