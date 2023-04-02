@@ -10,7 +10,7 @@
             font-family: Arial, Helvetica, sans-serif
         }
 
-        thead{
+        thead , tfoot > tr > th{
             background-color: bisque;
         }
 
@@ -19,7 +19,7 @@
             width: 800px;
         }
 
-        td{
+        td , th{
             border: 1px solid black;
             text-align: center;
             padding: 10px;
@@ -31,13 +31,13 @@
         <caption>filmes favoritos</caption>
         <thead>
             <tr>
-                <td>grupo</td>
-                <td>nomes</td>
-                <td colspan="3">filmes</td>
+                <th scope="col">grupo</th>
+                <th scope="col">nomes</th>
+                <th scope="colgroup" colspan="3">filmes</th>
             </tr>
         </thead>
         <tr>
-            <td rowspan="3">mulheres</td>
+            <th scope="rowgroup" rowspan="3">mulheres</th>
             <td>ana maria santos</td>
             <td>alien</td>
             <td>rambo</td>
@@ -56,7 +56,7 @@
             <td>big hero</td>
         </tr>
         <tr>
-            <td rowspan="3">homens</td>
+            <th scope="rowgroup" rowspan="3">homens</th>
             <td>bruno mendonca</td>
             <td>intocaveis</td>
             <td>gladiador</td>
@@ -74,6 +74,14 @@
             <td>taxi driver</td>
             <td>toy story</td>
         </tr>
+
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">total de filmes</th>
+                <td>36</td>
+            </tr>
+        </tfoot>
+
     </table>
 </body>
 </html>

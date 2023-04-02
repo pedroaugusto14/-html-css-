@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colunas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        td , th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.nome{
+            background-color: rgb(242, 200, 150);
+        }
+
+        col.color{
+            background-color: bisque;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="color" span="3">
+        </colgroup>
+        <tr>
+            <th>nome</th>
+            <th>sexo</th>
+            <th>idade</th>
+            <th>profisao</th>
+        </tr>
+        <tr>
+            <td>bernado</td>
+            <td>M</td>
+            <td>32</td>
+            <td>medico</td>
+        </tr>
+        <tr>
+            <td>alberto</td>
+            <td>M</td>
+            <td>64</td>
+            <td>predeiro</td>
+        </tr>
+        <tr>
+            <td>fernanda</td>
+            <td>F</td>
+            <td>19</td>
+            <td>lanchonet</td>
+        </tr>
+        <tr>
+            <td>jose</td>
+            <td>M</td>
+            <td>45</td>
+            <td>motorista</td>
+        </tr>
+    </table>
+</body>
+</html>
