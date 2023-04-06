@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>troca de conteudo</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            padding: 5px;
+            display: block;
+            text-decoration: none;
+            color: blueviolet;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        iframe{
+            border: 1px solid black;
+            width: 500px;
+            height: 600px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>trocando o conteudo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque minima asperiores deserunt commodi in laborum sapiente excepturi doloribus consequuntur animi fugit molestiae cumque explicabo, eius velit, dignissimos nam voluptatem voluptas?</p>
+
+    <a href="paginas/pag001.html" target="janela">pagina 001</a>
+
+    <a href="paginas/pag002.html" target="janela" >pagina 002</a>
+
+    <a href="paginas/pag003.html" target="janela">pagina 003</a>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam et id ipsum! Commodi alias hic nemo? Amet, quis. Omnis unde quos cum cumque, suscipit aliquid laborum voluptatem accusantium mollitia animi!</p>
+
+    <iframe name="janela" frameborder="1" srcdoc="<h1 style='text-align: center;'>escolha uma das opicoes acima</h1>" sandbox="sandbox" referrerpolicy="no-referrer">Seu navegador nao tem copatibilidade com iframe . Para mais acesse <a href="#">www.githab.com</a></iframe>
+</body>
+</html>
