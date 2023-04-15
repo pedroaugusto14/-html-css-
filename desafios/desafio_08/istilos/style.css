@@ -44,7 +44,11 @@ section#navegacao img {
 }
 
 img:hover {
-
+    position: relative;
+    top: -10px;
+    left: -10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.592);
+    
 }
 
 iframe#tela{
