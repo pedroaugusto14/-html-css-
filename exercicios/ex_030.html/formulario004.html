@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tipos de formulario</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="off" method="post">
+
+        <fieldset>
+            <legend>dados pessoais</legend>
+
+            <p><label for="idade">qual é a sua idade </label> <input type="number" name="idade" id="idade" step="1" value="1" required></p>
+
+            <p><label for="aniversario">que dia é o seu aniversario</label> <input type="month" name="aniversario" id="aniversario" required></p>
+
+            <p><label for="horas">á que horas</label> <input type="time" name="horas" id="horas"></p>
+
+            <p><label for="cor">sua cor preferida</label> <input type="color" name="cor" id="cor"></p>
+
+            <p><label for="telefone">seu numero telefone </label> <input type="tel" name="telefone" id="telefone" pattern="^\d{4,5}-\d{4}$" value="5555-5555"  required></p>
+
+            <p><label for="conta">seu e-mail </label><input type="email" name="conta" id="conta"  required></p>
+
+            <p><input type="submit" value="enviar"> <input type="reset" value="limpar"></p>
+        </fieldset>
+
+    </form>
+</body>
+</html>
