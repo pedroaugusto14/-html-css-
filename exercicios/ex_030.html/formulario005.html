@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
 <body>
     <h1>exemplo de formilario</h1>
 
-    <form action="cadastro.php" method="get" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
 
         <fieldset>
             <legend>esportes favoritos</legend>
@@ -23,6 +23,15 @@
             <input type="checkbox" name="ten" id="ten"> <label for="ten">tenis</label><br>
 
             <input type="checkbox" name="corri" id="corri"> <label for="corri">corrida</label><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>sexo</legend>
+
+            <input type="radio" name="sexo" id="isexo" required value="M"> <label for="sexo">Masculino</label>
+
+            <input type="radio" name="sexo" id="fsexo" checked value="F"> <label for="sexo">Feminino</label>
 
         </fieldset>
 

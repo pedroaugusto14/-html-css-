@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais tipos de inputs </title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="off">
+
+        <fieldset>
+            <legend>sobre você</legend>
+
+            <p>
+                <label for="cor">sua cor preferida </label>
+                <input type="color" name="cor" id="icor">
+                <br>
+            </p>
+
+            <p>
+                <label for="nivel">o quao voce esta satisfeito : </label>
+                <input type="range" name="nivel" id="inivel" min="1" max="5">
+                <br>
+            </p>
+
+            <p>
+                <label for="foto">foto de perfil : </label>
+                <input type="file" name="foto" id="ifoto">
+            </p>
+
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+</html>
