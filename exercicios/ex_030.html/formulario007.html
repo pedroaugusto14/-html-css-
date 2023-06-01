@@ -13,16 +13,33 @@
             <label for="estado">qual o seu estado </label>
             <select name="estado" id="iestado">
                 <optgroup label="sudeste">
-                    <option value="MG">Minas Gerais</option>
+                    <option value="MG" selected>Minas Gerais</option>
                     <option value="SP">Sao Paulo</option>
                     <option value="RJ">Rio de Janeiro</option>
                     <option value="ES">Espirito Santo</option>
                 </optgroup>
                 <optgroup label="nordeste">
-                    <option value="PE">pernambuco</option>
-                    <option value="SE">sergipe</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="MA">Maranhão</option>
                 </optgroup>
             </select>
+
+            <p>
+                <label for="itxt">sua profisao</label>
+                <input type="text" id="itxt" name="txt">
+                <datalist>
+                    <option value="prof">professor</option>
+                    <option value="med">medico</option>
+                    <option value="dent">dentista</option>
+                    <option value="dev">desenvolvedor</option>
+                </datalist>
+            </p>
+
+            <p>
+                <p>escreva sua mensagem :</p>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
 
             <p>
                 <input type="reset" value="limpar">
