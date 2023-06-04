@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ultimo formulario</title>
+</head>
+<body>
+    <h1>o ultimo formulario</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="off">
+
+        <p>
+            <label for="iano">em que ano voce naceu :</label>
+            <input type="number" name="ano" id="iano" min="2000" max="2023" oninput="idade.innerHTML = Number(2023 - iano.value)">
+        </p>
+
+        <p>
+            <label for="idade">sua idade é :</label>
+            <output id="idade">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+    </form>
+
+</body>
+</html>
