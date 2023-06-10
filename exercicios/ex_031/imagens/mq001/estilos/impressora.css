@@ -1,0 +1,39 @@
+@charset "ut-f8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image:#7bda29;
+    color: white;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 3px #0000006e;
+    margin-bottom: 20px;
+}
+
+nav{
+    display: none;
+}
+
+a{
+    display: none;
+}
+
+main{
+    width: 500px;
+    text-align: justify;
+    margin: auto;
+    padding: 20px;
+}
+
+main > p {
+    margin-bottom: 15px;
+    line-height: 1.3em;
+    text-indent: 30px;
+}
