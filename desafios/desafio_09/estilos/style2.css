@@ -1,0 +1,38 @@
+@charset "ut-f8";
+
+@media screen and (min-width: 600px){
+    menu {
+        display: block;
+        background-color: #949395;
+        padding: 10px 5px 4px 5px;
+    }
+    #menu{
+        display: none;
+    }
+
+    ul {
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    li {
+        display: inline;
+        border: 0px ;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    li:hover {
+        background-color: #828282;
+    }
+
+    main {
+        max-width: 768px;
+        display: block;
+        background-color: rgb(219, 209, 195);
+        margin: 0px 20px;
+        padding: 10px;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
