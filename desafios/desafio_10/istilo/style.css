@@ -1,0 +1,123 @@
+@charset "ut-f8";
+
+/*
+    paletas de cores
+
+    lilais/roxo: #900EC9
+    verde/azul: #29b1c9
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system ,system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+html , body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #910ec9;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section{
+    background-color: white;
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.593);
+    transition: width 0.5s , height 0.5s;
+}
+
+#img{
+    background-image: url(../pexels-andrea-garibay-16984227.jpg);
+    background-size: cover;
+    background-position: center left;
+    width: 250px;
+    height: 200px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.342);
+
+}
+
+#formulario{
+    padding: 10px;
+    display: block;
+}
+
+#usuario{
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#nome{
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 15px;
+    border: 1px solid rgb(113, 112, 112);
+}
+
+#nome:hover{
+    border: 1px solid rgb(60, 60, 60);
+}
+
+
+#senha{
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#password{
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 15px;
+    border: 1px solid rgb(113, 112, 112);
+}
+
+#password:hover{
+    border: 1px solid rgb(60, 60, 60);
+}
+
+#password:active{
+    border: 1px solid rgb(113, 112, 112);
+}
+
+#entrar{
+    display: block;
+    font-size: 1em;
+    background-color: #49a08d;
+    color: white;
+    width: 95%;
+    height: 30px;
+    margin: auto;
+    border: 0px solid white;
+}
+
+#entrar:hover{
+    background-color: #4ca793;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #910ec9;
+    text-align: center;
+    margin-top: 15px;
+}
+
+a:hover{
+    text-decoration: underline;
+}

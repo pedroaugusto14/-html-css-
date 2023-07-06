@@ -1,0 +1,83 @@
+@charset "ut-f8";
+
+@media screen and (min-width: 600px){ /*tabletes*/
+    body{
+        background-image: linear-gradient(to bottom , #900EC9 , #29b1c9a8);
+    }
+
+    section{
+        width: 500px;
+    }
+
+    #img{
+        width: 500px;
+        background-position: bottom left;
+    }
+
+    #usuario {
+        margin-top: 20px;
+    }
+
+    #nome , #password{
+        width: 80%;
+        height: 30px;
+    }
+
+    #entrar{
+        height: 30px;
+    }
+
+    a{
+        margin-top: 8px;
+    }
+
+}
+
+
+@media screen and (min-width: 998px){/*computador*/
+    section{
+        width: 800px;
+    }
+
+    #img{
+        float: left;
+        height: 100%;
+        width: 40%;
+        background-position: bottom;
+    }
+
+    #formulario{
+        float: right;
+        height: 100%;
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    form{
+        margin-top: 60px;
+    }
+
+    #entrar{
+        margin-top: 70px;
+        height: 40px;
+    }
+
+    a{
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (min-width: 1200px){/*televisao*/
+    section{
+        width: 1000px;
+    }
+
+    #img{
+        width: 50%;
+    }
+
+    #formulario{
+        width: 50%;
+    }
+}
